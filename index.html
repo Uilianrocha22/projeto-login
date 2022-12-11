@@ -6,6 +6,9 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>login</title>
      <link rel="stylesheet" href="estilos/style.css">
+     <link rel="stylesheet" href="estilos/media-query.css">
+     
+   
      
 
 </head>
@@ -13,11 +16,14 @@
 
      <main>
           <section class="login">
+
                <div class="imagem">
+                    
 
                  
 
                </div>
+          
                <div class="formulario">
                     <h1>Login</h1>
                     <p>Seja bem vindo(a) Novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente  </p>
@@ -25,15 +31,25 @@
                     <fieldset>
                          <form action="login.php" method="post">
                               <p>
-                                   <label for="inome">nome:</label>
-                                   <input type="text" name="nome" id="inome">
+                                   <label for="iorigem">origem:</label>
+                                   
+                                   <select name="origem" id="iorigem">
+                                        <option></option>
+                                        <option>MAO</option>
+                                        <option>REC</option>
+                                        <option>BSB</option>
+
+                                   </select>
+
+
+                                   
                               </p>
                               <p>
                                    <label for="isobrenome">sobre:</label>
-                                   <input type="text" name="sobre." id="isobrenome">
+                                   <input type="text" name="sobre." id="isobrenome" placeholder="sobrenome">
                               </p>
                               <label for="iimail">Email:</label>
-                              <input type="email" name="email" id="iimail">
+                              <input type="email" name="email" id="iimail" placeholder="Email">
                               <p>
                                   <input .a type="submit" value="Enviar">
                                   <input .a type="reset" value="Limpar">
@@ -42,6 +58,7 @@
                     </fieldset>
 
                </div>
+               
 
           </section>
      </main>
