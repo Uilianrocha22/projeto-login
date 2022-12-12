@@ -80,46 +80,33 @@ div.formulario > p{
 
      font-size: 0.8em;
 }
-form > div.campo1{
 
-     
-     background-color:#020f59 ;
-     display: block;
-     text-align: center;
-     font-size: 1em;
-     border: none;
-     color: white;
-     width: 100%;
-     height: 40px;
-     border-radius: 5px;
-     padding: 5px;
-     cursor: pointer;
-     
-    
-
-}
-
-form > div.campo2{
+form > div.campo{
 
      background-color:#020f59;
-     display: block;
      text-align: center;
+     padding-top: 2.5px;
+     margin-top: 5px;
+     display: block;
      font-size: 1em;
-     border: none;
-     color: white;
      width: 100%;
      height: 40px;
-     border-radius: 5px;
-     padding:05px;
-     margin-top: 2px;
+     color: white;
+     border: none;
+     border-radius: 5px  ;
      cursor: pointer;
 
 }
 
-form > div.campo1:hover , div.campo2:hover{
+form > div.campo > label{
+     display: none;
+}
+
+form > div.campo:hover {
      
      background-color:#051da9 ;
 }
+ 
 
 
 
@@ -155,7 +142,7 @@ form > a.botao{
      border: 1px solid #D9072D ;
      border-radius: 5px;
      text-decoration: none;
-     margin-top: 2px;
+     margin-top: 5px;
 
 }
 form > a.botao:hover{
