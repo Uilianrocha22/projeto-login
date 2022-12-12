@@ -43,8 +43,8 @@ main {
      overflow: hidden;
 
      background-color: white;
-     width: 340px;
-     height:562px;
+     width: 345px;
+     height:600px;
      border-radius: 20px;
      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.453);
 
@@ -95,6 +95,7 @@ form > div.campo{
      border: none;
      border-radius: 5px  ;
      cursor: pointer;
+     padding: 2px;
 
 }
 
