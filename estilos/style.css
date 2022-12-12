@@ -117,7 +117,7 @@ form > div.campo > input {
      padding:4px ;
      width: 80%;
      border-radius: 5px;
-     transform: translatey(-9px);
+     transform: translatey(-11px);
 
 }
 
@@ -172,11 +172,7 @@ form > a.botao > span {
      font-size: 0.8em;
 }
 
-fieldset{
-     margin-top: 25px;
-     padding: 10px;
-     border-radius: 5px;
-}
+
 
 
 
