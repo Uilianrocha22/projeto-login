@@ -85,6 +85,7 @@ form > div.campo1{
      
      background-color:#020f59 ;
      display: block;
+     text-align: center;
      font-size: 1em;
      border: none;
      color: white;
@@ -102,6 +103,7 @@ form > div.campo2{
 
      background-color:#020f59;
      display: block;
+     text-align: center;
      font-size: 1em;
      border: none;
      color: white;
@@ -119,12 +121,7 @@ form > div.campo1:hover , div.campo2:hover{
      background-color:#051da9 ;
 }
 
-div.campo1 > label , div.campo2 > label {
-     width: 100%;
-     margin-left: 10px;
-     text-align: justify;
-     display: none;
-}
+
 
 form > input[type=submit]{
 
