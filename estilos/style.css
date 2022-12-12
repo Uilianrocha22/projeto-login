@@ -78,7 +78,7 @@ div.formulario > h1 {
 
 div.formulario > p{
 
-     font-size: 0.8em;
+     font-size: 0.9em;
 }
 
 form > div.campo{
@@ -150,7 +150,7 @@ form > a.botao:hover{
 }
 
 form > a.botao > span {
-     font-size: 0.9em;
+     font-size: 0.8em;
 }
 
 fieldset{

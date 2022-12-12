@@ -23,6 +23,7 @@
      section.login > div.formulario{
           float: right;
           width: 60%;
+          margin-top: 16%;
      }
 }
 
@@ -54,6 +55,7 @@
 
     div.formulario > h1{
      font-size: 2em;
+     margin-top: 20%;
     }
 
     div.formulario > p{
